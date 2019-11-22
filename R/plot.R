@@ -146,7 +146,7 @@
 #' @export
 plot.dabest <- function(x, ...,
                         color.column        = NULL,
-                        palette             = "Set1",
+                        palette             = c("#4DAF4A","#377EB8","#E41A1C"),
                         float.contrast      = TRUE,
                         slopegraph          = TRUE,
                         group.summaries     = "mean_sd",
